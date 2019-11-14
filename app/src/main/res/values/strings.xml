@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">events</string>
+    <string name="events_image">events_image</string>
+    <string name="short_dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="login">Login</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="account_image">account_image</string>
+    <string name="simple_dummy_text">Lorem ipsum dolor sit amet.</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login_image">login_image</string>
+    <string name="logo">logo</string>
+    <string name="home">Home</string>
+    <string name="my_events">My Events</string>
+    <string name="tickets">tickets</string>
+    <string name="notifications">notifications</string>
+    <string name="what_are_you_looking_for">What are you looking for?</string>
+    <string name="recently_added">Recently Added</string>
+    <string name="filter_icon">filter_icon</string>
+    <string name="all">All</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="finished">Finished</string>
+    <string name="waiting_list">Waiting List</string>
+    <string name="drag_handler">drag_handler</string>
+    <string name="dummy_location">HQ GITS Indonesia Jalan Margacinta no. 29, Cijaura, Buahbatu, Bandung, Jawa Barat, 40287 Kota Bandung</string>
+    <string name="dummy_date">Sat, Aug 23, 15:30 WIB - Sat, Aug 23, 20:00 WIB</string>
+    <string name="description">Description</string>
+    <string name="long_dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor tortor. Morbi molestie odio id vestibulum lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque sapien lectus, molestie a porta congue, rutrum in nibh. Nam feugiat lacus vitae dolor congue, quis iaculis lacus gravida. Sed sit amet urna mollis, tincidunt ex a, aliquet enim. Sed sodales dui sed neque ullamcorper lacinia. Vestibulum ac turpis neque. Sed erat tortor, luctus nec dapibus eu, faucibus sed elit. Phasellus sed pulvinar nulla.</string>
+    <string name="more_photo">More Photo</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="register_to_waiting_list">Register To Waiting List</string>
+    <string name="see_a_discussion">SEE A DISCUSSION</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/auth_nav_graph"
+    app:startDestination="@id/frontpageFragment">
+    <fragment
+        android:id="@+id/frontpageFragment"
+        android:name="com.fizus.events.fragment.auth.FrontpageFragment"
+        android:label="">
+        <action
+            android:id="@+id/action_frontpage_to_login"
+            app:destination="@+id/loginFragment" />
+        <action
+            android:id="@+id/action_frontpage_to_register"
+            app:destination="@+id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.fizus.events.fragment.auth.LoginFragment"
+        android:label="" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.fizus.events.fragment.auth.RegisterFragment" />
+</navigation>

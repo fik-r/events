@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_tickets"
+        android:icon="@drawable/ic_ticket"
+        app:showAsAction="ifRoom"
+        android:title="@string/tickets"/>
+    <item
+        android:id="@+id/menu_notifications"
+        android:icon="@drawable/ic_notifications"
+        app:showAsAction="ifRoom"
+        android:title="@string/notifications"/>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:columnCount="2">
+
+            <include
+                layout="@layout/item_row_event_placeholder"
+                app:layout_columnWeight="1" />
+
+            <include
+                layout="@layout/item_row_event_placeholder"
+                app:layout_columnWeight="1" />
+
+            <include
+                layout="@layout/item_row_event_placeholder"
+                app:layout_columnWeight="1" />
+
+            <include
+                layout="@layout/item_row_event_placeholder"
+                app:layout_columnWeight="1" />
+        </androidx.gridlayout.widget.GridLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.facebook.shimmer.ShimmerFrameLayout>
